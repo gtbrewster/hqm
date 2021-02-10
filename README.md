@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React Bootstrap with Material Design
 MDBootstrap for React
 
@@ -20,3 +21,7 @@ We're also open to pull requests
 
 ## Something Missing?
 If you still have some questions do not hesitate to ask us. Open an issue or [visit our Slack](https://mdbbetatest.slack.com)
+=======
+# HeadquartersMovingApp
+
+>>>>>>> a4935ca0b96a4cd9d6c08fc38f791328b591b3d3
