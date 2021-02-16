@@ -47,7 +47,7 @@ class App extends Component {
         <div className='flyout'>
           <MDBNavbar color='indigo' dark expand='md' fixed='top' scrolling>
             <MDBNavbarBrand href='/' className='py-0 font-weight-bold'>
-              <Logo style={{ height: '2.5rem', width: '2.5rem' }} />
+              {/*<Logo style={{ height: '2.5rem', width: '2.5rem' }} />*/}
               <strong className='align-middle'>Headquarters Moving LLC</strong>
             </MDBNavbarBrand>
             <MDBNavbarToggler
@@ -64,7 +64,7 @@ class App extends Component {
                     <strong>Home</strong>
                   </MDBNavLink>
                 </MDBNavItem>
-                <MDBNavItem>
+                {/*<MDBNavItem>
                   <MDBNavLink
                     exact
                     to='/Home2'
@@ -196,7 +196,7 @@ class App extends Component {
                     </a>
                     <span>SUPPORT</span>
                   </MDBTooltip>
-                </MDBNavItem>
+                </MDBNavItem>*/}
               </MDBNavbarNav>
             </MDBCollapse>
           </MDBNavbar>

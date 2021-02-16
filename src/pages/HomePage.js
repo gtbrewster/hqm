@@ -33,11 +33,11 @@ class HomePage extends React.Component {
                 <MDBCardBody className='text-center'>
                   <h2 className='h2-responsive mb-4'>
                     <strong className='font-weight-bold'>
-                      <img
+                      {/*<img
                         src='https://mdbootstrap.com/img/Marketing/other/logo/logo-mdb-react-small.png'
                         alt='mdbreact-logo'
                         className='pr-2'
-                      />
+                      />*/}
                       Headquarters Moving LLC
                     </strong>
                   </h2>
