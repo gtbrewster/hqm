@@ -38,7 +38,7 @@ class HomePage extends React.Component {
                         alt='mdbreact-logo'
                         className='pr-2'
                       />*/}
-                      Headquarters Moving LLC
+                      South Florida's Solution to Office and Home Relocation!
                     </strong>
                   </h2>
                   <MDBRow />
@@ -64,13 +64,47 @@ class HomePage extends React.Component {
                   If you prefer to make your move during week nights or weekends, no problem! We will accomadate you at no extra cost! 
                 </p>
                 <p className='text-center text-muted'>
-                  This team cares! We, The Headquarters Movers, treat the customers possesions as our own. We are efficient and causous while at work!
+                  This team cares! We, The Headquarters Movers, treat the customers possesions as our own. We are efficient and cautious while at work!
                 </p>
                 <hr className='my-5' />
 
               </MDBCol>
             </MDBRow>
+            <MDBRow>
+              <MDBCol>
+              <MDBCardBody className='text-center'>
+                  <h1>
+                    <strong>
+                    561-291-9217
+                    </strong>
+                  </h1>
+                  <h2 className='h2-responsive mb-4'>
+                    <strong className='font-weight-bold'>
+                      {/*<img
+                        src='https://mdbootstrap.com/img/Marketing/other/logo/logo-mdb-react-small.png'
+                        alt='mdbreact-logo'
+                        className='pr-2'
+                      />*/}
+                      CONTACT US FOR A FREE QUOTE 
+                    </strong>
+                  </h2>
+                  <MDBRow />
+                  <p>Relocation of Office and Home</p>
+                  <p className='pb-1'>
+                  Furiture Installation and Repair
+                  </p>
+                  <p className='pb-1'>
+                  Maintenance Services
+                  </p>
+                  <p className='pb-1'>
+                  HeadquartersMovers@gmail.com
+                  </p>
+                  
+                </MDBCardBody>
+              </MDBCol>
+            </MDBRow>
           </MDBContainer>
+          
         </div>
       </>
     );
