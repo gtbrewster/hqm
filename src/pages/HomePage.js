@@ -73,12 +73,7 @@ class HomePage extends React.Component {
             <MDBRow>
               <MDBCol>
               <MDBCardBody className='text-center'>
-                  <h1>
-                    <strong>
-                    561-291-9217
-                    </strong>
-                  </h1>
-                  <h2 className='h2-responsive mb-4'>
+                  <h2 className='h2-responsive mb-2'>
                     <strong className='font-weight-bold'>
                       {/*<img
                         src='https://mdbootstrap.com/img/Marketing/other/logo/logo-mdb-react-small.png'
@@ -88,18 +83,24 @@ class HomePage extends React.Component {
                       CONTACT US FOR A FREE QUOTE 
                     </strong>
                   </h2>
+                  <h1>
+                    <strong>
+                    561-291-9217
+                    </strong>
+                  </h1>
+                  <h3 className='h3-responsive mb-4'>
+                    <strong className='font-weight-bold'>
+                    HeadquartersMovers@gmail.com
+                    </strong>
+                  </h3>
                   <MDBRow />
-                  <p>Relocation of Office and Home</p>
+                  <p className='pb-1'>Relocation of Office and Home</p>
                   <p className='pb-1'>
                   Furiture Installation and Repair
                   </p>
                   <p className='pb-1'>
                   Maintenance Services
                   </p>
-                  <p className='pb-1'>
-                  HeadquartersMovers@gmail.com
-                  </p>
-                  
                 </MDBCardBody>
               </MDBCol>
             </MDBRow>
