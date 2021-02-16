@@ -14,6 +14,7 @@ import AnimationPage from './pages/AnimationPage';
 import AlertPage from './pages/AlertPage';
 import HomePage from './pages/HomePage';
 import Home2Page from './pages/Home2Page';
+import MovesPage from './pages/MovesPage';
 import ButtonPage from './pages/ButtonPage';
 import CSSNavPage from './pages/CSSNavPage';
 import TablePage from './pages/TablePage';
@@ -72,6 +73,7 @@ class Routes extends React.Component {
       <Switch>
         <Route exact path='/' component={HomePage} />
         <Route exact path='/Home2' component={Home2Page} />
+        <Route exact path='/Moving' component={MovesPage} />
         <Route exact path='/addons' component={AddonsNavPage} />
         <Route exact path='/advanced' component={AdvancedNavPage} />
         <Route exact path='/components' component={ComponentsNavPage} />

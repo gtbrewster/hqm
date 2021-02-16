@@ -50,8 +50,6 @@ class HomePage extends React.Component {
                 </MDBCardBody>
               </MDBCol>
             </MDBRow>
-          </MDBFreeBird>
-          <MDBContainer>
             <MDBRow>
               <MDBCol md='12' className='mt-4'>
                 <h2 className='text-center my-5 font-weight-bold'>
@@ -70,7 +68,100 @@ class HomePage extends React.Component {
 
               </MDBCol>
             </MDBRow>
-            <MDBRow>
+            <MDBRow id='categories'>
+                  <MDBCol md='4'>
+                    <MDBAnimation reveal type='fadeInLeft'>
+                      <MDBCard cascade className='my-3 grey lighten-4'>
+                        {/*<MDBCardImage
+                          cascade
+                          className='img-fluid'
+                          src='/../assets/mdb-react-small.png'
+                        />*/}
+                        <MDBCardBody cascade className='text-center'>
+                          <MDBCardTitle>
+                            <MDBIcon
+                              icon='truck-moving'
+                              className='blue-text pr-2'
+                            />
+                            <strong>Moving</strong>
+                          </MDBCardTitle>
+                          <MDBCardText>
+                            We will get you from A to B plus so much more!
+                          </MDBCardText>
+                          <MDBNavLink
+                            tag='button'
+                            to='/Moving'
+                            color='mdb-color'
+                            className='btn btn-outline-mdb-color btn-sm btn-rounded d-inline'
+                            onClick={this.scrollToTop}
+                          >
+                            More
+                          </MDBNavLink>
+                        </MDBCardBody>
+                      </MDBCard>
+                    </MDBAnimation>
+                  </MDBCol>
+                  <MDBCol md='4'>
+                    <MDBAnimation reveal type='fadeInDown'>
+                      <MDBCard cascade className='my-3 grey lighten-4'>
+                        {/*<MDBCardImage
+                          cascade
+                          className='img-fluid'
+                          src='https://mdbootstrap.com/img/Marketing/mdb-press-pack/mdb-main.jpg'
+                        />*/}
+                        <MDBCardBody cascade className='text-center'>
+                          <MDBCardTitle>
+                            <MDBIcon icon='cubes' className='green-text pr-2' />
+                            <strong>Installation</strong>
+                          </MDBCardTitle>
+                          <MDBCardText>
+                            Furniture installations services for Commercial and Residential Offices
+                          </MDBCardText>
+                          <MDBNavLink
+                            tag='button'
+                            to='/components'
+                            color='mdb-color'
+                            className='btn btn-outline-mdb-color btn-sm btn-rounded d-inline'
+                            onClick={this.scrollToTop}
+                          >
+                            More
+                          </MDBNavLink>
+                        </MDBCardBody>
+                      </MDBCard>
+                    </MDBAnimation>
+                  </MDBCol>
+                  <MDBCol md='4'>
+                    <MDBAnimation reveal type='fadeInRight'>
+                      <MDBCard cascade className='my-3 grey lighten-4'>
+                        {/*<MDBCardImage
+                          cascade
+                          className='img-fluid'
+                          src='https://mdbootstrap.com/wp-content/uploads/2018/11/mdb-jquery-free.jpg'
+                        />*/}
+                        <MDBCardBody cascade className='text-center'>
+                          <MDBCardTitle>
+                            <MDBIcon icon='toolbox' className='yellow-text pr-2' />
+                            <strong>Maintenance</strong>
+                          </MDBCardTitle>
+                          <MDBCardText>
+                            We provide other services such as repairing furniture and small internal moves!
+                          </MDBCardText>
+
+                          <MDBNavLink
+                            tag='button'
+                            to='/advanced'
+                            color='mdb-color'
+                            className='btn btn-outline-mdb-color btn-sm btn-rounded d-inline'
+                            onClick={this.scrollToTop}
+                          >
+                            More
+                          </MDBNavLink>
+                        </MDBCardBody>
+                      </MDBCard>
+                    </MDBAnimation>
+                  </MDBCol>
+                </MDBRow>
+                <MDBRow>
               <MDBCol>
               <MDBCardBody className='text-center'>
                   <h2 className='h2-responsive mb-2'>
@@ -104,7 +195,7 @@ class HomePage extends React.Component {
                 </MDBCardBody>
               </MDBCol>
             </MDBRow>
-          </MDBContainer>
+          </MDBFreeBird>
           
         </div>
       </>

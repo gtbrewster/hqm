@@ -53,8 +53,12 @@ class App extends Component {
             <MDBNavbarToggler
               onClick={this.toggleCollapse('mainNavbarCollapse')}
             />
+            
             <MDBCollapse id='mainNavbarCollapse' isOpen={collapseID} navbar>
               <MDBNavbarNav right>
+              <MDBNavbarBrand className='py-0 font-weight-bold'>
+              <strong className='align-left'>FOR A FREE QUOTE CALL! 561-291-9217</strong>
+            </MDBNavbarBrand>
               <MDBNavItem>
                   <MDBNavLink
                     exact
@@ -62,6 +66,15 @@ class App extends Component {
                     onClick={this.closeCollapse('mainNavbarCollapse')}
                   >
                     <strong>Home</strong>
+                  </MDBNavLink>
+                </MDBNavItem>
+                <MDBNavItem>
+                  <MDBNavLink
+                    exact
+                    to='/Moving'
+                    onClick={this.closeCollapse('mainNavbarCollapse')}
+                  >
+                    <strong>Moving</strong>
                   </MDBNavLink>
                 </MDBNavItem>
                 {/*<MDBNavItem>

@@ -11,7 +11,7 @@ const FooterPage = () => {
         href='https://mdbootstrap.com/docs/react/navigation/footer/'
       />
       <SectionContainer header='Basic example'>
-        <MDBFooter color='blue' className='font-small pt-4 mt-4'>
+        {/*<MDBFooter color='blue' className='font-small pt-4 mt-4'>
           <MDBContainer fluid className='text-center text-md-left'>
             <MDBRow>
               <MDBCol md='6'>
@@ -45,8 +45,8 @@ const FooterPage = () => {
               &copy; {new Date().getFullYear()} Copyright:{' '}
               <a href='https://www.MDBootstrap.com'> MDBootstrap.com </a>
             </MDBContainer>
-          </div>*/}
-        </MDBFooter>
+          </div>
+        </MDBFooter>*/}
       </SectionContainer>
     </MDBContainer>
   );
