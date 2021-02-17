@@ -56,9 +56,6 @@ class App extends Component {
             
             <MDBCollapse id='mainNavbarCollapse' isOpen={collapseID} navbar>
               <MDBNavbarNav right>
-              <MDBNavbarBrand className='py-0 font-weight-bold'>
-              <strong className='align-left'>FOR A FREE QUOTE CALL! 561-291-9217</strong>
-            </MDBNavbarBrand>
               <MDBNavItem>
                   <MDBNavLink
                     exact
@@ -77,139 +74,24 @@ class App extends Component {
                     <strong>Moving</strong>
                   </MDBNavLink>
                 </MDBNavItem>
-                {/*<MDBNavItem>
+                <MDBNavItem>
                   <MDBNavLink
                     exact
-                    to='/Home2'
+                    to='/Installation'
                     onClick={this.closeCollapse('mainNavbarCollapse')}
                   >
-                    <strong>Home2</strong>
+                    <strong>Installation</strong>
                   </MDBNavLink>
                 </MDBNavItem>
                 <MDBNavItem>
                   <MDBNavLink
+                    exact
+                    to='/Maintenance'
                     onClick={this.closeCollapse('mainNavbarCollapse')}
-                    to='/css'
                   >
-                    <strong>CSS</strong>
+                    <strong>Maintenance</strong>
                   </MDBNavLink>
                 </MDBNavItem>
-                <MDBNavItem>
-                  <MDBNavLink
-                    onClick={this.closeCollapse('mainNavbarCollapse')}
-                    to='/components'
-                  >
-                    <strong>Components</strong>
-                  </MDBNavLink>
-                </MDBNavItem>
-                <MDBNavItem>
-                  <MDBNavLink
-                    onClick={this.closeCollapse('mainNavbarCollapse')}
-                    to='/advanced'
-                  >
-                    <strong>Advanced</strong>
-                  </MDBNavLink>
-                </MDBNavItem>
-                <MDBNavItem>
-                  <MDBNavLink
-                    onClick={this.closeCollapse('mainNavbarCollapse')}
-                    to='/navigation'
-                  >
-                    <strong>Navigation</strong>
-                  </MDBNavLink>
-                </MDBNavItem>
-                <MDBNavItem>
-                  <MDBNavLink
-                    onClick={this.closeCollapse('mainNavbarCollapse')}
-                    to='/forms'
-                  >
-                    <strong>Forms</strong>
-                  </MDBNavLink>
-                </MDBNavItem>
-                <MDBNavItem>
-                  <MDBNavLink
-                    onClick={this.closeCollapse('mainNavbarCollapse')}
-                    to='/tables'
-                  >
-                    <strong>Tables</strong>
-                  </MDBNavLink>
-                </MDBNavItem>
-                <MDBNavItem>
-                  <MDBNavLink
-                    onClick={this.closeCollapse('mainNavbarCollapse')}
-                    to='/modals'
-                  >
-                    <strong>Modals</strong>
-                  </MDBNavLink>
-                </MDBNavItem>
-                <MDBNavItem>
-                  <MDBNavLink
-                    onClick={this.closeCollapse('mainNavbarCollapse')}
-                    to='/addons'
-                  >
-                    <strong>Addons</strong>
-                  </MDBNavLink>
-                </MDBNavItem>
-
-                
-
-                <MDBNavItem>
-                  <MDBTooltip
-                    placement='bottom'
-                    domElement
-                    style={{ display: 'block' }}
-                  >
-                    <a
-                      className='nav-link Ripple-parent'
-                      href='https://mdbootstrap.com/products/react-ui-kit/'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      <strong>
-                        <MDBIcon far icon='gem' />
-                      </strong>
-                    </a>
-                    <span>PRO</span>
-                  </MDBTooltip>
-                </MDBNavItem>
-                <MDBNavItem>
-                  <MDBTooltip
-                    placement='bottom'
-                    domElement
-                    style={{ display: 'block' }}
-                  >
-                    <a
-                      className='nav-link Ripple-parent'
-                      href='https://mdbootstrap.com/docs/react/getting-started/download/'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      <strong>
-                        <MDBIcon icon='download' />
-                      </strong>
-                    </a>
-                    <span>FREE</span>
-                  </MDBTooltip>
-                </MDBNavItem>
-                <MDBNavItem className='mr-2'>
-                  <MDBTooltip
-                    placement='bottom'
-                    domElement
-                    style={{ display: 'block' }}
-                  >
-                    <a
-                      className='nav-link Ripple-parent'
-                      href='https://mdbootstrap.com/support/cat/react/'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      <strong>
-                        <MDBIcon icon='question-circle' />
-                      </strong>
-                    </a>
-                    <span>SUPPORT</span>
-                  </MDBTooltip>
-                </MDBNavItem>*/}
               </MDBNavbarNav>
             </MDBCollapse>
           </MDBNavbar>
@@ -218,10 +100,10 @@ class App extends Component {
             <Routes />
           </main>
           <MDBFooter color='indigo'>
-            <p className='footer-copyright mb-0 py-3 text-center'>
+            {/*<p className='footer-copyright mb-0 py-3 text-center'>
               &copy; {new Date().getFullYear()} Copyright:
               <a href='https://www.MDBootstrap.com'> MDBootstrap.com </a>
-            </p>
+            </p>*/}
           </MDBFooter>
         </div>
       </Router>

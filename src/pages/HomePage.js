@@ -12,7 +12,8 @@ import {
   MDBCardImage,
   MDBCardText,
   MDBAnimation,
-  MDBNavLink
+  MDBNavLink,
+  MDBBtn
 } from 'mdbreact';
 import './HomePage.css';
 
@@ -44,7 +45,17 @@ class HomePage extends React.Component {
                   <MDBRow />
                   <p>Headqurters Moving has one goal in mind, that is to make the moving experience exuberant! We know first hand how exiting it can be to relocate, and our team helps deliver peace-of-mind with experienced professionals. </p>
                   <p className='pb-4'>
-                  The Headquarters Movers practice safe moving techniques along with various installation skills, such as, Office Furniture, T.V./Monitor Mounts, shelves for electronics, Hanging Pictures, 
+                  The Headquarters Movers practice safe moving techniques along with various installation skills, such as, Office Furniture, T.V./Monitor Mounts, shelves for electronics, Hanging Pictures, etc.
+                  
+                  </p>
+                  <p className='pb-1'>
+                  <strong>Call or Email us today to get a free estimate!</strong>
+                  </p>
+                  <p className='pb-1'>
+                  <strong>561-291-2917</strong>
+                  </p>
+                  <p className='pb-1'>
+                  <strong>HeadquartersMovers@gmail.com</strong>
                   </p>
                   
                 </MDBCardBody>
@@ -67,6 +78,7 @@ class HomePage extends React.Component {
                 <hr className='my-5' />
 
               </MDBCol>
+              
             </MDBRow>
             <MDBRow id='categories'>
                   <MDBCol md='4'>
@@ -119,7 +131,7 @@ class HomePage extends React.Component {
                           </MDBCardText>
                           <MDBNavLink
                             tag='button'
-                            to='/components'
+                            to='/Installation'
                             color='mdb-color'
                             className='btn btn-outline-mdb-color btn-sm btn-rounded d-inline'
                             onClick={this.scrollToTop}
@@ -149,7 +161,7 @@ class HomePage extends React.Component {
 
                           <MDBNavLink
                             tag='button'
-                            to='/advanced'
+                            to='/Maintenance'
                             color='mdb-color'
                             className='btn btn-outline-mdb-color btn-sm btn-rounded d-inline'
                             onClick={this.scrollToTop}
