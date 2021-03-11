@@ -42,19 +42,18 @@ class HomePage extends React.Component {
                       South Florida's Solution to Office and Home Relocation!
                     </strong>
                   </h2>
-                  <MDBRow />
                   <p>Headqurters Moving has one goal in mind, that is to make the moving experience exuberant! We know first hand how exiting it can be to relocate, and our team helps deliver peace-of-mind with experienced professionals. </p>
                   <p className='pb-4'>
                   The Headquarters Movers practice safe moving techniques along with various installation skills, such as, Office Furniture, T.V./Monitor Mounts, shelves for electronics, Hanging Pictures, etc.
                   
                   </p>
                   <p className='pb-1'>
-                  <strong>Call or Email us today to get a free estimate!</strong>
+                  <strong>FOR A FREE ESTIMATE CONTACT US!</strong>
                   </p>
-                  <p className='pb-1'>
+                  <p>
                   <strong>561-291-2917</strong>
                   </p>
-                  <p className='pb-1'>
+                  <p>
                   <strong>HeadquartersMovers@gmail.com</strong>
                   </p>
                   

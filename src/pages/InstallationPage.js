@@ -16,7 +16,7 @@ import {
 } from 'mdbreact';
 import './InstallationPage.css';
 
-class HomePage extends React.Component {
+class InstallationPage extends React.Component {
   scrollToTop = () => window.scrollTo(0, 0);
 
   render() {
@@ -41,7 +41,6 @@ class HomePage extends React.Component {
                       Furniture Installation
                     </strong>
                   </h2>
-                  <MDBRow />
                   <p>
                     Out team installs cubicles, private offices, conference rooms, break rooms, cafeteria furniture, etc.
                   </p>
@@ -72,4 +71,4 @@ class HomePage extends React.Component {
   }
 }
 
-export default HomePage;
+export default InstallationPage;

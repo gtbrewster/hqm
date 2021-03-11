@@ -16,7 +16,7 @@ import {
 } from 'mdbreact';
 import './MovesPage.css';
 
-class HomePage extends React.Component {
+class MovePage extends React.Component {
   scrollToTop = () => window.scrollTo(0, 0);
 
   render() {
@@ -41,7 +41,6 @@ class HomePage extends React.Component {
                       Office and Home Moves
                     </strong>
                   </h2>
-                  <MDBRow />
                   <p>Commercial and Residential Relocation Services accross all of South Florida</p>
                   <p className='pb-4'>
                     Headquarters Moving provides service to nearly the entire state of Florida!
@@ -70,4 +69,4 @@ class HomePage extends React.Component {
   }
 }
 
-export default HomePage;
+export default MovePage;
