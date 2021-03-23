@@ -42,7 +42,7 @@ class HomePage extends React.Component {
                       South Florida's Solution to Office and Home Relocation!
                     </strong>
                   </h2>
-                  <p>Headqurters Moving has one goal in mind, that is to make the moving experience exuberant! We know first hand how exiting it can be to relocate, and our team helps deliver peace-of-mind with experienced professionals. </p>
+                  <p>Headquarters Moving has one goal in mind, that is to make the moving experience exuberant! We know first hand how exiting it can be to relocate, and our team helps deliver peace-of-mind with experienced professionals. </p>
                   <p className='pb-4'>
                   The Headquarters Movers practice safe moving techniques along with various installation skills, such as, Office Furniture, T.V./Monitor Mounts, shelves for electronics, Hanging Pictures, etc.
                   
