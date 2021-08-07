@@ -51,7 +51,7 @@ class HomePage extends React.Component {
                   <strong>FOR A FREE ESTIMATE CONTACT US!</strong>
                   </p>
                   <p>
-                  <strong>561-291-2917</strong>
+                  <strong>561-291-9217</strong>
                   </p>
                   <p>
                   <strong>HeadquartersMovers@gmail.com</strong>
