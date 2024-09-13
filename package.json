@@ -1,4 +1,5 @@
 {
+  "homepage": "http://gtbrewster.github.io/hqm",
   "name": "your-app",
   "version": "0.1.0",
   "private": true,
@@ -9,13 +10,15 @@
     "chai-webdriverio": "^1.0.0",
     "local-runner": "^0.1.1-alpha",
     "mdbreact": "5.0.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-router-dom": "^5.1.2",
     "react-scripts": "4.0.1",
     "webdriverio": "^7.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
@@ -31,6 +34,7 @@
     "@wdio/selenium-standalone-service": "^7.0.1",
     "@wdio/spec-reporter": "^7.0.1",
     "@wdio/sync": "^7.0.1",
+    "gh-pages": "^6.1.1",
     "renamer": "^1.0.0",
     "rimraf": "^2.6.2"
   },

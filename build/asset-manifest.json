@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.56b78643.chunk.css",
-    "main.js": "/static/js/main.ca2ac0c4.chunk.js",
-    "main.js.map": "/static/js/main.ca2ac0c4.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.3756f90b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.3756f90b.js.map",
-    "static/css/2.39f07c1c.chunk.css": "/static/css/2.39f07c1c.chunk.css",
-    "static/js/2.cc0e77f7.chunk.js": "/static/js/2.cc0e77f7.chunk.js",
-    "static/js/2.cc0e77f7.chunk.js.map": "/static/js/2.cc0e77f7.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.39f07c1c.chunk.css.map": "/static/css/2.39f07c1c.chunk.css.map",
-    "static/css/main.56b78643.chunk.css.map": "/static/css/main.56b78643.chunk.css.map",
-    "static/js/2.cc0e77f7.chunk.js.LICENSE.txt": "/static/js/2.cc0e77f7.chunk.js.LICENSE.txt",
-    "static/media/mdb.css": "/static/media/arrow_right.0897f985.svg",
-    "static/media/MovesPage.css": "/static/media/background_home1.c5682aa1.jpg",
-    "static/media/all.min.css": "/static/media/fa-solid-900.f4f93856.woff",
-    "static/media/logo.8ccd799a.svg": "/static/media/logo.8ccd799a.svg",
-    "static/media/MaintenancePage.css": "/static/media/movingcrates.632e14d5.jpg"
+    "main.css": "/hqm/static/css/main.3b539b59.chunk.css",
+    "main.js": "/hqm/static/js/main.0b335da3.chunk.js",
+    "main.js.map": "/hqm/static/js/main.0b335da3.chunk.js.map",
+    "runtime-main.js": "/hqm/static/js/runtime-main.27aa0055.js",
+    "runtime-main.js.map": "/hqm/static/js/runtime-main.27aa0055.js.map",
+    "static/css/2.adb3a04a.chunk.css": "/hqm/static/css/2.adb3a04a.chunk.css",
+    "static/js/2.762eaa6c.chunk.js": "/hqm/static/js/2.762eaa6c.chunk.js",
+    "static/js/2.762eaa6c.chunk.js.map": "/hqm/static/js/2.762eaa6c.chunk.js.map",
+    "index.html": "/hqm/index.html",
+    "static/css/2.adb3a04a.chunk.css.map": "/hqm/static/css/2.adb3a04a.chunk.css.map",
+    "static/css/main.3b539b59.chunk.css.map": "/hqm/static/css/main.3b539b59.chunk.css.map",
+    "static/js/2.762eaa6c.chunk.js.LICENSE.txt": "/hqm/static/js/2.762eaa6c.chunk.js.LICENSE.txt",
+    "static/media/mdb.css": "/hqm/static/media/arrow_right.0897f985.svg",
+    "static/media/MovesPage.css": "/hqm/static/media/background_home1.c5682aa1.jpg",
+    "static/media/all.min.css": "/hqm/static/media/fa-solid-900.f4f93856.woff",
+    "static/media/logo.8ccd799a.svg": "/hqm/static/media/logo.8ccd799a.svg",
+    "static/media/MaintenancePage.css": "/hqm/static/media/movingcrates.632e14d5.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3756f90b.js",
-    "static/css/2.39f07c1c.chunk.css",
-    "static/js/2.cc0e77f7.chunk.js",
-    "static/css/main.56b78643.chunk.css",
-    "static/js/main.ca2ac0c4.chunk.js"
+    "static/js/runtime-main.27aa0055.js",
+    "static/css/2.adb3a04a.chunk.css",
+    "static/js/2.762eaa6c.chunk.js",
+    "static/css/main.3b539b59.chunk.css",
+    "static/js/main.0b335da3.chunk.js"
   ]
 }
